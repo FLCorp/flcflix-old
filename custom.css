@@ -1,0 +1,11 @@
+*{
+    text-decoration: none;
+}
+body{
+    background-color: #1e1e1e;
+    background-image: url(img/flix_ng_here_soon.png);
+    background-size: 90%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
