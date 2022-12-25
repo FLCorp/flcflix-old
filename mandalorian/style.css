@@ -1,0 +1,19 @@
+*{
+    text-decoration: none;
+}
+body{
+    background: rgb(30, 30, 30);
+}
+a{
+    color: rgb(251, 98, 34);
+}
+button{
+    background-color: black;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
