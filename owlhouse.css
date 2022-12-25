@@ -1,0 +1,145 @@
+*{
+    text-decoration: none;
+}
+@font-face {
+    src: url(font/BebasNeue-Regular.ttf);
+    font-family: netflix;
+}
+
+body{  
+    background: rgb(30, 30, 30);
+    overflow-x: hidden;
+    max-width: 1920px;
+}
+
+.header_banner{
+    height: 60%;
+    width: 100%;
+    min-height: 280px;
+    margin-top: -50px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    box-shadow: inset 0px -130px 80px rgb(30, 30, 30);
+
+    background-image: url(banner/toh.png);
+    background-size: cover;
+    background-position: right;
+}
+
+.titrebox {
+    color: goldenrod;
+    font-family: netflix;
+    font-size: 100px;
+    text-shadow: 10px 10px 20px black;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 1;
+    margin-top: 8%;
+}
+
+.titrebox2 {
+    background-color: rgba(3, 3, 3, 0.562);
+    backdrop-filter: blur(10px);
+    margin: 0 auto;
+    border-radius: 15px;
+    width: 25%;
+}
+
+.sec1 .omglet{
+    position: relative;
+    margin-top: 520px;
+    margin-bottom: 40px;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 570px;
+    height: 50px;
+}
+
+.sec1 .omglet ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 500px auto;
+    padding: 0px;
+    position: relative;
+}
+
+.sec1 .omglet ul a {
+    margin: 0 30px;
+}
+
+.sec1 {
+    margin-top: 500px;
+    position: relative;
+}
+
+.sec1 .omglet button {
+    position: relative;
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+    background-color: rgb(24, 23, 23);
+    border: 3px solid #DB202C;
+    font-size: 1.7em;
+    font-family: netflix;
+    color: #DB202C;
+    z-index: 2;
+    transition: 0.2s;
+    overflow: hidden;
+}
+
+.sec1 .omglet button:hover {
+    color: white;
+    width: 160px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.sec1 .omglet button::before {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 160px;
+    background-color: #DB202C;
+    top: -2px;
+    left: -2px;
+    transform: translateY(-100%);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.sec1 .omglet button:hover::before {
+    transform: translate(0%);
+    transition: 0.2s;
+}
+
+.sec1 .omglet button:hover {
+    color: white;
+}
+
+.sec1 .omglet button i {
+    transform: scale(0);
+    margin: -10px;
+    transition: 0.3s;
+}
+
+.sec1 .omglet button:hover i {
+    transform: scale(5);
+    margin-left: 20px;
+}
+
+.sec1 .liste1 { 
+    background-color: rgba(66, 65, 65, 0.562);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    margin: 20px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.ecran{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
