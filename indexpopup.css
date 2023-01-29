@@ -91,11 +91,10 @@
 }
 
 .popup-body{
-    padding-top: 10%;
     overflow-y: auto;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 70px;
     
 }
 .popup-body p{
@@ -223,22 +222,4 @@
 .popup .popup-footer .btn-see:hover i {
     transform: scale(5);
     margin-left: 20px;
-}
-.btn-invisible{
-    padding-left: 58px;
-    background-color: transparent;
-    color: transparent;
-    border-color: transparent;
-}
-.btn-next, .btn-precedent{
-    background-color: red;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    border-radius: 10px;
-    border-color: wheat;
-}
-.btn-precedent-first, .btn-next-last{
-    background-color: transparent;
-    color: transparent;
-    border-color: transparent;
 }

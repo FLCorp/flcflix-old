@@ -9,8 +9,8 @@ button{
     margin: 0 auto;
 }
 img{
-    display: block;
-    margin: 0 auto;
+    margin-left: 11px;
+    border-radius: 15px;
 }
 a{
     color: gold;

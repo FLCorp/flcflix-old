@@ -1,0 +1,73 @@
+@font-face {
+    font-family: netflix;
+    src: url(font/BebasNeue-Regular.ttf);
+}
+*{
+    text-decoration: none;
+}
+body{
+    background: rgb(30, 30, 30);
+}
+header{
+    text-align: center;
+}
+a{
+    color: yellow;
+    font-family: Bebas Neue;
+}
+button{
+    background-color: green;
+    margin: 0 auto;
+    border-radius: 8px;
+    border-color: yellow;
+    color: yellow;
+    font-family: Bebas Neue;
+}
+h1{
+    text-align: center;
+    color: yellow;
+    font-family: Bebas Neue;
+    font-size: 85px;
+}
+p{
+    color: red;
+    font-family: netflix;
+    text-align: center;
+    font-size: 25px;
+}
+b{
+    color: white;
+    font-family: netflix;
+    text-align: center;
+}
+.episodes-button{
+    text-align: center;
+}
+img{
+    border-radius: 15px;
+    margin-left: 11px;
+}
+span{
+    color: #c6bf06;
+}
+.le{
+    color: #26c606;
+}
+.i{
+    color: #2606c6;
+}
+.d{
+    color: #c67306;
+}
+.o{
+    color: #7006c6;
+}
+.s{
+    color: #c60606;
+}
+.co{
+    color: #c6069c;
+}
+.pe{
+    color: #ffffff;
+}

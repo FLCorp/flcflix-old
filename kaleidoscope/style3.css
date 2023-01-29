@@ -1,0 +1,60 @@
+.sec1 .omglet ul .one:hover{
+    color: white;
+    width: 180px;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+.sec1 .omglet ul .two:hover{
+    color: white;
+    width: 180px;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+.sec1 .omglet ul .three:hover{
+    color: white;
+    width: 180px;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+.sec1 .omglet ul .four:hover{
+    color: white;
+    width: 180px;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+.sec1 .omglet ul .five:hover{
+    color: white;
+    width: 180px;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+.sec1 .omglet ul .six:hover{
+    color: white;
+    width: 180px;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+.sec1 .omglet ul .seven:hover{
+    color: white;
+    width: 180px;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+.sec1 .omglet ul .eight:hover{
+    color: black;
+    width: 180px;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+.sec1 .omglet .one::before {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 180px;
+    background-color: #c6bf06;
+    top: -2px;
+    left: -2px;
+    transform: translateY(-100%);
+    transition: 0.5s;
+    z-index: -1;
+}
