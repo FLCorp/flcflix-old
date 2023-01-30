@@ -11,6 +11,7 @@ body {
     background: rgb(30, 30, 30);
     padding: 0 20px 20px 20px;
     border: 5px solid rgb(30, 30, 30);
+    max-width: 1920px;
 }
 button{
     padding: 5px 10px;
@@ -28,7 +29,7 @@ p{
 .all-series{
     background-color: rgba(106, 106, 106, 0.427);
     background-image: url(img/background_1.png);
-    background-size: 250%;
+    background-size: 300%;
     background-position: center;
     background-repeat: repeat-x;
     border-radius: 20px;
