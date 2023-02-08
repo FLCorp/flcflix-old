@@ -1,0 +1,20 @@
+@font-face {
+    font-family: netflix;
+    src: url(font/BebasNeue-Regular.ttf);
+}
+*{
+    text-decoration: none;
+}
+body{
+    background: rgb(30, 30, 30);
+}
+h1,
+h3{
+    color: cyan;
+    text-shadow: 1px 1px 1px lime;
+    font-family: netflix;
+}
+img{
+    margin-left: 11px;
+    border-radius: 15px;
+}
