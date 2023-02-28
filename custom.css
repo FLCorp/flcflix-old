@@ -48,7 +48,7 @@ b{
     position: absolute;
     box-shadow: inset 0px -130px 80px rgb(30, 30, 30);
 
-    background-image: url(banner/banner_movies_month_1.png);
+    background-image: url(banner/banner4.png);
     background-size: cover;
     background-position: right;
     
@@ -73,10 +73,10 @@ b{
 }
 
 @-webkit-keyframes banner{
-    0%{background-image: url(banner/banner_movies_month_1.png);}
-    20%{background-image: url(banner/banner_movies_month_1.png);}
-    25%{background-image: url(banner/banner_series_month_1.png);}
-    45%{background-image: url(banner/banner_series_month_1.png);}
+    0%{background-image: url(banner/banner4.png);}
+    20%{background-image: url(banner/banner4.png);}
+    25%{background-image: url(banner/toh.png);}
+    45%{background-image: url(banner/toh.png);}
     50%{background-image: url(banner/banner1.png);}
     70%{background-image: url(banner/banner1.png);}
     75%{background-image: url(banner/banner3.png);}
@@ -84,10 +84,10 @@ b{
 }
 
 @-moz-keyframes banner{
-    0%{background-image: url(banner/banner_movies_month_1.png);}
-    20%{background-image: url(banner/banner_movies_month_1.png);}
-    25%{background-image: url(banner/banner_series_month_1.png);}
-    45%{background-image: url(banner/banner_series_month_1.png);}
+    0%{background-image: url(banner/banner4.png);}
+    20%{background-image: url(banner/banner4.png);}
+    25%{background-image: url(banner/toh.png);}
+    45%{background-image: url(banner/toh.png);}
     50%{background-image: url(banner/banner1.png);}
     70%{background-image: url(banner/banner1.png);}
     75%{background-image: url(banner/banner3.png);}
@@ -95,10 +95,10 @@ b{
 }
 
 @keyframes banner{
-    0%{background-image: url(banner/banner_movies_month_1.png);}
-    20%{background-image: url(banner/banner_movies_month_1.png);}
-    25%{background-image: url(banner/banner_series_month_1.png);}
-    45%{background-image: url(banner/banner_series_month_1.png);}
+    0%{background-image: url(banner/banner4.png);}
+    20%{background-image: url(banner/banner4.png);}
+    25%{background-image: url(banner/toh.png);}
+    45%{background-image: url(banner/toh.png);}
     50%{background-image: url(banner/banner1.png);}
     70%{background-image: url(banner/banner1.png);}
     75%{background-image: url(banner/banner3.png);}
