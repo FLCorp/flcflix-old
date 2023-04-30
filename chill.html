@@ -8,14 +8,12 @@
     </head>
     <body>
         <h1>Contrôle de la Musique</h1>
-        <h3 id="audioTitle">Chilltendo - GameChops</h1>
-        <audio autoplay controls id="myAudio">
-            <source src="https://youtu.be/c5V-qL1HRho" type="audio/mpeg" class="chill" id="audioSource">
-        </audio>
-        <br>
-        <button onclick="changeAudio(2)" id="audioBtn">Zelda & Chill - GameChops</button>
-        <button onclick="changeAudio(3)" id="audio2Btn">Mario & Chill - GameChops</button>
-    
+        <div id="player"></div>
+        <h3>Premier audio = Chilltendo - GameChops</h3>
+        <button id="change-video-1" onclick="changeVideo('GdzrrWA8e7A')">Zelda & Chill - GameChops</button>
+        <button id="change-video-2" onclick="changeVideo('p9a-AQQJ8Aw')">Mario & Chill - GameChops</button>
+        <button id="reset-video" onclick="resetVideo()">Revenir au premier audio</button>
+        <script src="https://www.youtube.com/iframe_api"></script>
         <script src="chill.js"></script>
         <br>
         <a href="index.html">
