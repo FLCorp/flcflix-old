@@ -7,9 +7,9 @@ var audioPlayer = document.getElementById("myAudio");
 		var defaultTitle = audioTitle.innerHTML;
         var defaultBtn = audioBtn.innerHTML;
         var default2Btn = audio2Btn.innerHTML;
-		var audio2Src = "audio/chillmode1.mp3";
+		var audio2Src = "https://youtu.be/GdzrrWA8e7A";
 		var audio2Title = "Zelda & Chill - GameChops";
-		var audio3Src = "audio/chillmode2.mp3";
+		var audio3Src = "https://youtu.be/p9a-AQQJ8Aw";
 		var audio3Title = "Mario & Chill - GameChops";
 
 		function changeAudio(audioNumber) {
