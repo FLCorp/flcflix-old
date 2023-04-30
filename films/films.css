@@ -58,9 +58,8 @@ img{
 .films-box{
     background-color: rgba(106, 106, 106, 0.427);
     background-image: url(img/background_5.png);
-    background-size: 150%;
-    background-position: center;
-    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     border-radius: 20px;
     margin: 20px;
     position: relative;
