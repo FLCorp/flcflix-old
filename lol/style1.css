@@ -8,10 +8,10 @@ a{
     color: yellow;
 }
 button{
-    background-color: black;
-    color: yellow;
-    display: block;
+    background-color: white;
     margin: 0 auto;
+    border-radius: 8px;
+    border-color: blue;
 }
 img{
     margin-left: 11px;
