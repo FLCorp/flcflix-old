@@ -3,31 +3,41 @@
     <head>
         <title>Films [Marvel]</title>
         <link rel="stylesheet" href="films.css">
+        <link rel="icon" href="./img/flcflix_v2_logo.png">
     </head>
     <body>
         <header class="header-wrap jw-header-container">
-            <div class="message-bar message-bar--accent">
-                <div class="message-bar__item">
-                    <button><a href="action.html">💥Action</a></button>
-                    <button><a href="animation.html">✏️Animation</a></button>
-                    <button><a href="aventure.html">🗺️Aventure</a></button>
-                    <button><a href="comedie.html">😂Comédie</a></button>
-                    <button><a href="disney.html">🐁Disney</a></button>
-                    <button><a href="documentaire.html">📖Documentaire</a></button>
-                    <button><a href="francais.html">🥖Français</a></button>
-                    <button><a href="guerre.html">🔫Guerre</a></button>
-                    <button><a href="horreur.html">🔪Horreur</a></button>
-                    <button><a href="romance.html">❤️Romance</a></button>
-                    <button><a href="scifi.html">🧪Sciences-Fictions</a></button>
-                    <button><a href="tragedie.html">😭Drame</a></button>
-                    <button><a href="warner.html">🦇Warner</a></button>
-                    <br>
-                    <br>
-                    <button><a href="https://flcorp.github.io/flcflix/">Retour à l'Accueil</a></button>
-                    <button><a href="https://flcorp.github.io/flcflix/series.html">Menu des Séries</a></button>
+                <div class="message-bar message-bar--accent">
+                    <div class="message-bar__item">
+                        <button id="toggle-sidebar" onclick="toggleSidebar()">Menu Catégories</button>
+                    </div>
                 </div>
-            </div>
         </header>
+        <div id="sidebar">
+            <br>
+            <div>
+                <button><a href="action.html">Action</a></button>
+                <button><a href="animation.html">Animation</a></button>
+                <button><a href="aventure.html">Aventure</a></button>
+                <button><a href="biopic.html">Biopic</a></button>
+                <button><a href="comedie.html">Comédie</a></button>
+                <button><a href="disney.html">Disney</a></button>
+                <button><a href="tragedie.html">Drame</a></button>
+                <button><a href="francais.html">Français Culte</a></button>
+                <button><a href="guerre.html">Guerre</a></button>
+                <button><a href="horreur.html">Horreur</a></button>
+                <button><a href="romance.html">Romance</a></button>
+                <button><a href="scifi.html">Science-Fiction</a></button>
+                <button><a href="warner.html">Warner</a></button>
+            </div>
+            <br>
+            <button id="toggle-sidebar" onclick="toggleSidebar()">Fermer le Menu Catégories</button>
+            <a href="https://flcorp.github.io/flcflix/"><button>Accueil</button></a>
+            <a href="https://flcorp.github.io/flcflix/films.html"><button>Catalogue des Films</button></a>
+            <a href="https://flcorp.github.io/flcflix/series.html"><button>Catalogue des Séries</button></a>
+            <a href="https://flcorp.github.io/flcflix/documentaire.html"><button>Catalogue des Documentaires</button></a>
+            <a href="https://flcorp.github.io/flcflix/chill.html"><button>FLChill / Chill Mode</button></a>
+        </div>
         <br>
         <h1>Catalogue des Films Marvel</h1>
         <br>
@@ -56,5 +66,6 @@
             <a href="https://uqload.co/8heey6s5n86h.html"><img src="posters/venom.jpg" width="170" height="250"></a>
             <a href="https://uqload.co/m1vrj94yd2wc.html"><img src="posters/venom_two.jpg" width="170" height="250"></a>
         </div>
+        <script src="sidebar.js"></script>
     </body>
 </html>

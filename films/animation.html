@@ -4,30 +4,41 @@
         <title>Films [Animation]</title>
         <link rel="stylesheet" href="films.css">
         <link rel="stylesheet" href="popup.css">
+        <link rel="icon" href="img/flcflix_v2_logo.png">
     </head>
     <body>
         <header class="header-wrap jw-header-container">
             <div class="message-bar message-bar--accent">
                 <div class="message-bar__item">
-                    <button><a href="action.html">💥Action</a></button>
-                    <button><a href="aventure.html">🗺️Aventure</a></button>
-                    <button><a href="comedie.html">😂Comédie</a></button>
-                    <button><a href="disney.html">🐁Disney</a></button>
-                    <button><a href="francais.html">🥖Français</a></button>
-                    <button><a href="guerre.html">🔫Guerre</a></button>
-                    <button><a href="horreur.html">🔪Horreur</a></button>
-                    <button><a href="marvel.html">🦸Marvel</a></button>
-                    <button><a href="romance.html">❤️Romance</a></button>
-                    <button><a href="scifi.html">🧪Sciences-Fictions</a></button>
-                    <button><a href="tragedie.html">😭Drame</a></button>
-                    <button><a href="warner.html">🦇Warner</a></button>
-                    <br>
-                    <br>
-                    <button><a href="https://flcorp.github.io/flcflix/">Retour à l'Accueil</a></button>
-                    <button><a href="https://flcorp.github.io/flcflix/series.html">Menu des Séries</a></button>
+                    <button id="toggle-sidebar" onclick="toggleSidebar()">Menu Catégories</button>
                 </div>
             </div>
         </header>
+        <div id="sidebar">
+            <br>
+            <div>
+                <button><a href="action.html">Action</a></button>
+                <button><a href="aventure.html">Aventure</a></button>
+                <button><a href="biopic.html">Biopic</a></button>
+                <button><a href="comedie.html">Comédie</a></button>
+                <button><a href="disney.html">Disney</a></button>
+                <button><a href="tragedie.html">Drame</a></button>
+                <button><a href="francais.html">Français Culte</a></button>
+                <button><a href="guerre.html">Guerre</a></button>
+                <button><a href="horreur.html">Horreur</a></button>
+                <button><a href="marvel.html">Marvel</a></button>
+                <button><a href="romance.html">Romance</a></button>
+                <button><a href="scifi.html">Science-Fiction</a></button>
+                <button><a href="warner.html">Warner</a></button>
+            </div>
+            <br>
+            <button id="toggle-sidebar" onclick="toggleSidebar()">Fermer le Menu Catégories</button>
+            <a href="https://flcorp.github.io/flcflix/"><button>Accueil</button></a>
+            <a href="https://flcorp.github.io/flcflix/films.html"><button>Catalogue des Films</button></a>
+            <a href="https://flcorp.github.io/flcflix/series.html"><button>Catalogue des Séries</button></a>
+            <a href="https://flcorp.github.io/flcflix/documentaire.html"><button>Catalogue des Documentaires</button></a>
+            <a href="https://flcorp.github.io/flcflix/chill.html"><button>FLChill / Chill Mode</button></a>
+        </div>
         <br>
         <h1>Catalogue des Films d'Animation</h1>
         <br>
@@ -68,6 +79,7 @@
             <a href="https://uqload.co/320u1zfwmz7g.html"><img src="posters/sonic_poster.jpg" width="170" height="250"></a>
             <a href="https://uqload.co/1joewmess580.html"><img src="posters/sonic_two_poster.jpg" width="170" height="250"></a>
             <a href="https://uqload.co/11pqp4rzcqr4.html"><img src="posters/spiderman_into_spiderverse_poster.jpg" width="170" height="250"></a>
+            <a href="https://uqload.co/s8ly0zx8dvf1.html"><img src="posters/super_mario_bros.jpg" width="170" height="250"></a>
             <a href="https://uqload.co/4mvdctwv6wry.html"><img src="posters/bad_guys_poster.jpg" width="170" height="250"></a>
             <a href="https://uqload.co/r31zh3wjdah3.html"><img src="posters/tic_and_tac_poster.jpg" width="170" height="250"></a>
             <a href="https://uqload.co/br6i57jrageo.html"><img src="posters/totally_spies_poster.jpg" width="170" height="250"></a>
@@ -81,5 +93,6 @@
             <a href="https://uqload.co/0flfowf3i9oq.html"><img src="posters/bad_guys_vostfr.png" width="170" height="250"></a>
             <a href="https://uqload.co/r428w9oc1x10.html"><img src="posters/chip_n_dale_vostfr.png" width="170" height="250"></a>
         </div>
+        <script src="sidebar.js"></script>
     </body>
 </html>
