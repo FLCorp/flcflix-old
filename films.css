@@ -254,3 +254,17 @@ p{
         margin: 20px;
     }
 }
+
+#sidebar {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/background_0.png);
+    transition: top 0.5s ease;
+    z-index: 10;
+}
+#sidebar.open {
+    top: 0;
+}

@@ -13,9 +13,35 @@
                         <button><a href="index.html">Retour à l'Accueil</a></button>
                         <button><a href="series.html">Menu des Séries</a></button>
                         <button><a href="films/documentaire.html">Documentaires</a></button>
+                        <button id="toggle-sidebar" onclick="toggleSidebar()">Menu Catégories</button>
                     </div>
                 </div>
         </header>
+        <div id="sidebar">
+            <br>
+            <div>
+                <button><a href="films/action.html">Action</a></button>
+                <button><a href="films/animation.html">Animation</a></button>
+                <button><a href="films/aventure.html">Aventure</a></button>
+                <button><a href="films/biopic.html">Biopic</a></button>
+                <button><a href="films/comedie.html">Comédie</a></button>
+                <button><a href="films/disney.html">Disney</a></button>
+                <button><a href="films/tragedie.html">Drame</a></button>
+                <button><a href="films/francais.html">Français Culte</a></button>
+                <button><a href="films/guerre.html">Guerre</a></button>
+                <button><a href="films/horreur.html">Horreur</a></button>
+                <button><a href="films/marvel.html">Marvel</a></button>
+                <button><a href="films/romance.html">Romance</a></button>
+                <button><a href="films/scifi.html">Science-Fiction</a></button>
+                <button><a href="films/warner.html">Warner</a></button>
+            </div>
+            <br>
+            <button id="toggle-sidebar" onclick="toggleSidebar()">Fermer le Menu Catégories</button>
+            <a href="index.html"><button>Accueil</button></a>
+            <a href="series.html"><button>Catalogue des Séries</button></a>
+            <a href="documentaire.html"><button>Catalogue des Documentaires</button></a>
+            <a href="chill.html"><button>FLChill / Chill Mode</button></a>
+        </div>
         <br>
         <div class="films-images" id="action">
             <p>Films d'Action</p>
@@ -163,5 +189,6 @@
             <a href="https://uqload.co/c8l4otq7c339.html"><img src="films/posters/suicide_squad_two.jpg" width="170" height="250" class="img-film"></a>
             <a href="https://uqload.co/3hvxwtqbjqg9.html"><img src="films/posters/wonder_woman.jpg" width="170" height="250" class="img-film"></a>
         </div>
+        <script src="sidebar.js"></script>
     </body>
 </html>
