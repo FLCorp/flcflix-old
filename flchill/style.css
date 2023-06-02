@@ -1,0 +1,28 @@
+@font-face {
+    font-family: zelda;
+    src: url(font/The\ Wild\ Breath\ of\ Zelda.otf);
+}
+*{
+    text-decoration: none;
+}
+body{
+    background-color: #1e1e1e;
+}
+h1{
+    font-family: zelda;
+    color: #00b900;
+}
+p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.zelda{
+    font-size: 5em;
+    text-align: center;
+    font-family: zelda;
+    color: #00b900;
+}
+.secure{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>FLChill - Menu Zelda</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="zelda">FLChill: Menu Zelda</h1>
+        </header>
+        <div id="player"></div>
+        <h1>Controles</h1>
+        <button><a href="https://flcorp.github.io/flcflix/chill.html">Retour à FLChill</a></button>
+        <button id="pause" onclick="pauseVideo()">Pause / Lecture</button>
+        <div>
+          <label for="volume" class="vlm-style">Volume:</label>
+          <input type="range" id="volume" name="volume" min="0" max="100" value="10" onchange="setVolume()" class="vlm-style">
+          <span id="volume-percentage" class="vlm-style">10%</span>
+        </div>
+        <br><br>
+        <h1>Main Themes</h1>
+        <button id="reset-video" onclick="resetVideo()">Zelda Main Theme</button>
+        <button id="change-video-1" onclick="changeVideo('CKA1zCwcYBE')">Zelda OOT Main Theme</button>
+        <button id="change-video-2" onclick="changeVideo('cGG7qIhU094')">Zelda MM Main Theme</button>
+        <button id="change-video-3" onclick="changeVideo('5W_bFLwB0WY')">Zelda Spirit Tracks Main Theme</button>
+        <button id="change-video-4" onclick="changeVideo('bue1fd2J980')">Zelda TP Main Theme</button>
+        <button id="change-video-5" onclick="changeVideo('zubne9hewY8')">Zelda Link's Awakening Main Theme</button>
+        <button id="change-video-6" onclick="changeVideo('cPWBG6_jn4Y')">Zelda BOTW Main Theme</button>
+        <button id="change-video-7" onclick="changeVideo('FKLHDgbTD0k')">Zelda TOTK Main Theme</button>
+        <br>
+        <h1>OST</h1>
+        <p>Les OST seront disponibles lors de la prochaine MAJ de FLChill</p>
+    </body>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="menu.js"></script>
+</html>
