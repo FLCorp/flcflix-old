@@ -1,0 +1,36 @@
+@font-face {
+    font-family: zelda;
+    src: url(font/The\ Wild\ Breath\ of\ Zelda.otf);
+}
+@font-face {
+    font-family: hylia;
+    src: url(font/HyliaSerifBeta-Regular.otf);
+}
+*{
+    text-decoration: none;
+}
+body{
+    background-color: #1e1e1e;
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: hylia;
+    color: white;
+}
+p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.zelda{
+    font-size: 5em;
+    text-align: center;
+    font-family: hylia;
+    color: #00b900;
+}
+::-webkit-scrollbar{
+    color: #00b900;
+    border-radius: 20px;
+}

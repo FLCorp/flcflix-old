@@ -1,0 +1,14 @@
+*{
+    text-decoration: none;
+}
+
+button{
+    width: 220px;
+    height: 30px;
+    border: solid 1px #5c5c5c;
+    border-radius: 0px;
+    background-color: black;
+    color: #00c9c9;
+    text-shadow: #00e3e3 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

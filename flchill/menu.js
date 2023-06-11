@@ -38,3 +38,7 @@ var player;
         var volume = document.getElementById("volume").value;
         player.setVolume(volume);
       }
+      function toggleSidebar() {
+        var sidebar = document.getElementById("sidebar");
+        sidebar.classList.toggle("open");
+      }
