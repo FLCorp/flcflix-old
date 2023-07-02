@@ -1,0 +1,32 @@
+*{
+    text-decoration: none;
+}
+body{
+    background: rgb(30, 30, 30);
+}
+a{
+    color: rgb(218, 32, 32);
+    font-family: Bebas Neue;
+}
+header{
+    text-align: center;
+}
+button{
+    background-color: yellow;
+    margin: 0 auto;
+    border-radius: 8px;
+    border-color: red;
+}
+h1{
+    color: red;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 85px;
+}
+img{
+    margin-left: 11px;
+    border-radius: 15px;
+}
+.episodes-button{
+    text-align: center;
+}

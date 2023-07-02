@@ -1,0 +1,39 @@
+@font-face {
+    font-family: netflix;
+    src: url(font/BebasNeue-Regular.ttf);
+}
+*{
+    text-decoration: none;
+}
+body{
+    background: rgb(30, 30, 30);
+}
+a{
+    color: goldenrod;
+    font-family: Bebas Neue;
+}
+header{
+    text-align: center;
+}
+button{
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 8px;
+    border-color: goldenrod;
+}
+h1{
+    color: goldenrod;
+    text-align: center;
+    font-family: netflix;
+    font-size: 85px;
+}
+img{
+    margin-left: 11px;
+    border-radius: 15px;
+}
+.episodes-button{
+    text-align: center;
+}
+.little-txt{
+    font-size: 35px;
+}
