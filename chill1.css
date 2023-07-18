@@ -43,7 +43,7 @@ b{
     top: 0;
     width: 300px;
     height: 100%;
-    background-image: url(img/background_7.png);
+    background: linear-gradient(to bottom, #20dbcf, #20db4c);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -58,8 +58,8 @@ b{
 }
 .vlm-style{
     width: 45%;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1em;
 }
 @media screen and (max-width : 2500px){
