@@ -8,7 +8,7 @@
 }
 
 body{  
-    background: rgb(30, 30, 30);
+    background: linear-gradient(to bottom, #1e1e1e, #1e1e1e, #000231);
     overflow-x: hidden;
     max-width: 1920px;
 }
@@ -19,7 +19,7 @@ h5{
     text-align: center;
 }
 a{
-    color: red;
+    color: #004779;
 }
 b{
     color: #10bd7b;
@@ -30,12 +30,12 @@ b{
     font-size: 15px;
     font-family: netflix;
 }
-.v2-txt{
-    color: #6c0000;
+.v3-txt{
+    color: #0b006c;
     font-size: 0.75em;
 }
-.v2txt{
-    color: #410000;
+.v3txt{
+    color: #070041;
     font-size: 0.5em;
 }
 .bigflc{
@@ -351,6 +351,66 @@ b{
 
 .sec1 .omglet .flc-btn:hover i {
     transform: scale(5);
+    margin-left: 50px;
+}
+
+/*Bouton du Nouveau Design*/
+.sec1 .omglet .flc-btn2 {
+    position: relative;
+    height: 50px;
+    width: 530px;
+    border-radius: 10px;
+    background-color: #181717;
+    border: 3px solid #7e00d2;
+    font-size: 1.7em;
+    font-family: netflix;
+    color: #7e00d2;
+    z-index: 2;
+    transition: 0.2s;
+    overflow: hidden;
+    box-shadow: #1a0031 -5px 5px 20px;
+}
+
+.sec1 .omglet .flc-btn2:hover {
+    color: white;
+    width: 610px;
+    right: 40px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.sec1 .omglet .flc-btn2::before {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 610px;
+    background-color: #7e00d2;
+    top: -2px;
+    left: -2px;
+    transform: translateY(-100%);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+
+.sec1 .omglet .flc-btn2:hover::before {
+    transform: translate(0%);
+    transition: 0.2s;
+}
+
+.sec1 .omglet .flc-btn2:hover {
+    color: white;
+}
+
+.sec1 .omglet .flc-btn2 i {
+    transform: scale(0);
+    margin: -10px;
+    transition: 0.3s;
+}
+
+.sec1 .omglet .flc-btn2:hover i {
+    transform: scale(5);
+    margin-left: 50px;
 }
 
 /*Bouton du Chill Mode*/
@@ -427,6 +487,7 @@ b{
 
 .sec1 .omglet .flc-btn-b:hover i {
     transform: scale(5);
+    margin-left: 50px;
 }
 
 
@@ -448,22 +509,6 @@ b{
     text-align: left;
     padding: 10px 0px 0px 10px;
 }
-.popup2 {
-    color: white;
-    font-family: netflix;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 800px;
-    background-color: #030028;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    display: none; /* Masquer par défaut */
-    z-index: 1000;
-  }
 
 @media screen and (max-width : 1920px){
     .sec1 .liste1 img {
@@ -536,4 +581,8 @@ b{
 }
 ::-webkit-scrollbar {
     width: 10px;
-  }
+}
+.top{
+    font-family: netflix;
+    color: #004779;
+}
